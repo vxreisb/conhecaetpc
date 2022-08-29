@@ -6,21 +6,37 @@
         <meta charset="UTF-8">
         <title> Projeto Conheça ETPC </title>
         <style>
+            
             body {
-                        background-image: url(imagens/labirinto.png);
-                        background-attachment: fixed;
-                        background-size:100%;
-                        background-repeat:no-repeat;
-                        }
-            .teste{color: ghostwhite;}
+                background-color: #262c37;
+                font-size: 14px;
+                line-height: 1.75;
+                height: 100%;
+                }
+
+            .page__main {
+                background-image: url("imagens/labirinto.png");
+                border-radius: 3px;
+                padding: 24px 36px;
+                position: relative;
+                margin: 30px 21px;
+                height: 100vh;
+            }
+
+            .teste {
+                color: red;
+                background-color: black;
+            }
+
         </style>
     </head>
-
-    
+    <! -- comentários -->
     <body> 
-
-        <h1 class="teste"> O labirinto do Caos </h1>
-        <h3 class="teste"> O elevador hidráulico</h3>
+        <div class="page__main">
+            <h1 class="teste"> Labirinto do Caos </h1>
+            <h3 class="teste"> O elevador hidráulico</h3>
+        </div>
+        
         <p> </p>
 
     </body>
